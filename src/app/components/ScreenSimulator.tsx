@@ -92,6 +92,7 @@ const ScreenSimulator: React.FC = () => {
           height={height}
           title="Screen Simulation"
           className="border-none"
+          sandbox=""
         />
       </div>
     </div>
