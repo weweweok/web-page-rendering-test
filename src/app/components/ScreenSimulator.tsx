@@ -31,8 +31,8 @@ const InputField = ({
   );
 };
 const ScreenSimulator: React.FC = () => {
-  const [width, setWidth] = useState(1024);
-  const [height, setHeight] = useState(768);
+  const [width, setWidth] = useState(screenFormats[0].width);
+  const [height, setHeight] = useState(screenFormats[0].height);
   const [url, setUrl] = useState("");
 
   return (
